@@ -20,6 +20,8 @@ The entire pipeline is visualised through a Streamlit app, including model predi
 * Web App: Interactive UI built with Streamlit for simulations, explanations, and visualisations.
 
 ## Project Structure
+```plaintext
+
 project/
 │
 ├── audio_features.npy
@@ -35,20 +37,24 @@ project/
 │
 ├── validation_plot.png
 └── script_name.py 
+```
 
 ## Installation
 ### 1. Clone the Repository
+```plaintext
 git clone https://github.com/yourusername/your-repo-name.git
 cd your-repo-name
-
+```
 ### 2. Install Dependencies
+```plaintext
 Use pip to install all required packages:
 pip install streamlit librosa torch torchvision shap lime scikit-learn matplotlib networkx pandas pillow
-
+```
 ## Running the App
 Once dependencies are installed and your .npy data files are in place:
+```plaintext
 streamlit run your_script_name.py
-
+```
 Then open the local Streamlit URL (usually http://localhost:8501) in your browser.
 
 ## How It Works
