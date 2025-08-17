@@ -1,10 +1,10 @@
 # Resource Allocation using Multimodal AI with Misinformation Mitigation in Healthcare
 This project presents a comprehensive multimodal AI framework designed to predict mental health severity, particularly in the context of Alzheimer's disease, by leveraging diverse data sources:
 
-🧬 Neuroimaging: Structural and functional data from MRI and PET scans
-🗣️ Vocal Biomarkers: Audio features (e.g., MFCCs) capturing speech characteristics correlated with cognitive decline
-🧍‍♂️ Physiological & Behavioural Signals: Including gaze patterns, body pose, breathing rate, heart rate, and motor tapping
-📊 Clinical Scores: Such as PHQ scores, indicating depression and mood-related symptoms
+* Neuroimaging: Structural and functional data from MRI and PET scans
+* Vocal Biomarkers: Audio features (e.g., MFCCs) capturing speech characteristics correlated with cognitive decline
+* Physiological & Behavioural Signals: Including gaze patterns, body pose, breathing rate, heart rate, and motor tapping
+* Clinical Scores: Such as PHQ scores, indicating depression and mood-related symptoms
 
 These multimodal inputs are used to train a predictive model that estimates cognitive severity, supporting early intervention and optimised care.
 Beyond the clinical prediction model, this project also simulates the spread of health misinformation via social media networks, modelling how exposure to inaccurate or harmful information can impact perception and decision-making. This simulation is used to adjust severity predictions and dynamically inform resource allocation — ensuring patients most at risk (both medically and informationally) are prioritised for treatment.
@@ -89,6 +89,7 @@ Simulates misinformation spread using a Barabási–Albert network model:
 
 ## Notes
 * Ensure all .npy feature files are correctly shaped and aligned.
+* The train_phq_score_*.npy files are merged to generate ground truth severity labels.
 * Misinformation risk is integrated directly into adjusted predictions.
 
 ## Acknowledgments
