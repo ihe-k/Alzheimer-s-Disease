@@ -21,7 +21,6 @@ The entire pipeline is visualised through a Streamlit app, including model predi
 
 ## Project Structure
 ```plaintext
-
 project/
 │
 ├── audio_features.npy
