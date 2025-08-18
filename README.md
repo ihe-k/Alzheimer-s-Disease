@@ -71,7 +71,7 @@ Physiological markers are synthetically simulated (breathing, tapping, heart rat
 Simulates misinformation spread using a Barabási–Albert network model:
 
 * Nodes: Patients
-* States: Susceptible (S), Infected (I), Recovered (R)
+* States: Susceptible (S), Infected (I) and Recovered (R)
 * Adjusts predicted severity scores based on misinformation prevalence
 
 ### 4. Resource Allocation
